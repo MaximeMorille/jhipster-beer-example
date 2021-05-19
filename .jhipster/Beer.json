@@ -1,0 +1,52 @@
+{
+  "name": "Beer",
+  "fields": [
+    {
+      "fieldName": "uuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "abv",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "ebc",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "ibu",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "ownerUuid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "BeerColor",
+      "fieldValues": "BLONDE,BRUNE,AMBREE"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "ingredient",
+      "otherEntityRelationshipName": "beer",
+      "relationshipName": "ingredient"
+    }
+  ],
+  "entityTableName": "beer",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210519063756"
+}

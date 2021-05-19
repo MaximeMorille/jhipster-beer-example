@@ -1,0 +1,10 @@
+{
+  "jhipsterBeerExampleApp": {
+    "BeerColor": {
+      "null": "",
+      "BLONDE": "BLONDE",
+      "BRUNE": "BRUNE",
+      "AMBREE": "AMBREE"
+    }
+  }
+}

@@ -42,7 +42,9 @@
     "jwtSecretKey": "NzE2MDNkNGExYzIxOTkxZDVhNWJmMjU3OTQ4MDcwMjc3OWFlOGFiNDY2ZWJlNjc1MzZkMThmMzYwNWI4YzEyZTlkNDcyYmM5MjAxZWFlMzE5YjQ3MmJhZjAwZTc5NWJjMjVkZGRkMTE5NzRiMGExNTU2ODg3NWViMDhjODhiNjY=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Beer", "Ingredient"],
+    "lastLiquibaseTimestamp": 1621406277000
   },
   "git-provider": "GitHub",
   "git-company": "MaximeMorille",
